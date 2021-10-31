@@ -8,7 +8,7 @@ export default function Header(){
                 <div>About</div>
                 <div>Champions</div>
                 <div>Blog</div>
-                <div>OP.GG</div>
+                <div><a href="https://na.op.gg/summoner/userName=AtCriteria" target="_blacnk" >OP.GG</a></div>
             </nav>
         </header>
     )
