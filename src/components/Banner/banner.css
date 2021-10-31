@@ -1,23 +1,23 @@
 aside {
     margin: 5% 0 2.5% 0;
-    height: 480px;
+    height: 50vh;
     position: relative;
 }
 aside .img-container {
     width: 100%;
-    height: 480px;
+    height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position-y: -320px;
+    background-position-y: 65%;
     z-index: 0;
 }
 
 aside .fade-wrapper {
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(15,15,10,1) 0%, rgba(15,15,10,0) 25%, rgba(15,15,10,0) 75%, rgba(15,15,10,1) 100%); 
+    background: linear-gradient(0deg, rgba(15,15,10,1) 0%, rgba(15,15,10,1) 15%, rgba(15,15,10,0) 30%, rgba(15,15,10,0) 75%, rgba(15,15,10,1) 100%);  
     width: 100%;
-    height: 480px;
+    height: 50vh;
     position: absolute;
     top: 0px;
     left: 0;
@@ -25,13 +25,26 @@ aside .fade-wrapper {
 }
 
 aside .text-wrapper {
-    width: 100%;
-    height: 480px;
     z-index: 1;
     position: absolute;
-    top: 320px;
-    left: -280px;
-    font-size: 6rem;
-    color: rgb(248, 248, 220);
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
+aside .text-wrapper span {
+    font-size: 4rem;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(bottom, rgb(103, 71, 31), rgb(203, 172, 98)) repeat scroll 0% 0% padding-box text;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+aside img {
+    width: 98%;
 }
