@@ -4,7 +4,7 @@ const origin = window.location.origin;
 export default function Banner(){
     return(
         <section>
-            <img src={`${origin+"/images/Ezreal_6.jpg"}`} alt="banner" />
+            <div alt="banner" style={{backgroundImage:`url(${origin+"/images/Ezreal_6.jpg"})`}} />
         </section>
     )
 }
