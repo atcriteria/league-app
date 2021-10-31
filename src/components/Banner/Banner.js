@@ -3,8 +3,10 @@ const origin = window.location.origin;
 
 export default function Banner(){
     return(
-        <section>
-            <div alt="banner" style={{backgroundImage:`url(${origin+"/images/Ezreal_6.jpg"})`}} />
-        </section>
+        <aside>
+            <div className="fade-wrapper"></div>
+            <div className="text-wrapper">Greetings, Summoner</div>
+            <div className="img-container" alt="banner" style={{backgroundImage:`url(${origin+"/images/Ezreal_6.jpg"})`}} />
+        </aside>
     )
 }
