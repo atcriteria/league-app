@@ -15,7 +15,11 @@ export default function Champions(){
         <section className="champions-section">
             <div className="champion-select">
                 {champions.map((champion, ind) => {
-                    return <ChampionButton selectNewChampion={selectNewChampion} champion={champion} key={ind} id={ind} />
+                    if (champion === selectedChampion){
+                        return "";
+                    } else {
+                        return <ChampionButton selectNewChampion={selectNewChampion} champion={champion} key={ind} id={ind} />
+                    }
                 })}
             </div>
             <div className="champion-info">
