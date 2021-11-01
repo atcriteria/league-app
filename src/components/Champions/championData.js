@@ -35,6 +35,22 @@ const championData = [
             teamFighting: 8
         }
     },
+    {
+        name: "Lux",
+        image: `${origin}/Images/avatars/Lux_0.jpg`,
+        title: "The Lady of Luminosity",
+        description: "A real easy way to brighten anyones day.",
+        role: "Mage",
+        race: "Human",
+        region: "Demacia",
+        position: "Mid",
+        metrics: {
+            agression: 10,
+            laning: 7,
+            cs: 6,
+            teamFighting: 8
+        }
+    },
 ]
 
 export default championData;
