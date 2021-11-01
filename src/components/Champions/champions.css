@@ -31,6 +31,17 @@
 .champ-description {
     width: 100%;
     height: 30vh;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c4b998;
+    letter-spacing: 4px;
+    font-size: 1.6rem;
+}
+.champ-description h2,p {
+    margin: 0;
 }
 
 .champion-avatar {

@@ -23,8 +23,11 @@ export default function Champions(){
                 })}
             </div>
             <div className="champion-info">
-                <div className="champion-avatar" style={{backgroundImage: `url(${selectedChampion.image})`}}></div>
-                <div className="champ-description"></div>
+                <div className="champion-avatar" style={{backgroundImage: `url(${selectedChampion.image})`}} />
+                <div className="champ-description">
+                    <h2>{selectedChampion.title}</h2>
+                    <p>{selectedChampion.description}</p>
+                </div>
                 <div className="champ-metrics"></div>
             </div>
             <div className="champion-meta-info"></div>
