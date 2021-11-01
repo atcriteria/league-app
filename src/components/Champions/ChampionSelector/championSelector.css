@@ -30,5 +30,8 @@ Width is currently 22%
 .champion-select-buttons {
     height: 80%;
     width: 100%;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: #5a4f2a #111318;
+    scrollbar-width: thin;
 }
