@@ -1,4 +1,5 @@
 import './champions.css';
+import { useState } from 'react';
 
 export default function Champions(){
     return(
