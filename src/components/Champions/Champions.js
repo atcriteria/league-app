@@ -1,7 +1,7 @@
 import './champions.css';
 import { useState } from 'react';
 import championData from './championData';
-import ChampionButton from './ChampionButton';
+import ChampionSelector from './ChampionSelector/ChampionSelector';
 
 export default function Champions(){
     const [selectedChampion, setSelectedChampion] = useState(championData[0]);
@@ -13,15 +13,7 @@ export default function Champions(){
 
     return(
         <section className="champions-section">
-            <div className="champion-select">
-                {champions.map((champion, ind) => {
-                    if (champion === selectedChampion){
-                        return "";
-                    } else {
-                        return <ChampionButton selectNewChampion={selectNewChampion} champion={champion} key={ind} id={ind} />
-                    }
-                })}
-            </div>
+            <ChampionSelector selectedChampion={selectedChampion} selectNewChampion={selectNewChampion} champions={champions} />
             <div className="champion-info">
                 <div className="champion-avatar" style={{backgroundImage: `url(${selectedChampion.image})`}} />
                 <div className="champ-description">
