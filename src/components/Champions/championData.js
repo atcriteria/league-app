@@ -51,6 +51,38 @@ const championData = [
             teamFighting: 8
         }
     },
+    {
+        name: "Teemo",
+        image: `${origin}/Images/avatars/Teemo_0.jpg`,
+        title: "The Swift Scout",
+        description: "The physical manifestation of Satan himself",
+        role: "Marksman",
+        race: "Yordle",
+        region: "Bandle City",
+        position: "Top",
+        metrics: {
+            agression: 10,
+            laning: 7,
+            cs: 7,
+            teamFighting: 8
+        }
+    },
+    {
+        name: "Vi",
+        image: `${origin}/Images/avatars/Vi_0.jpg`,
+        title: "The Piltover Enforcer",
+        description: "If you hit a wall, just keep punching!",
+        role: "Fighter",
+        race: "Human",
+        region: "Piltover",
+        position: "Jungle",
+        metrics: {
+            agression: 10,
+            laning: 5,
+            cs: 5,
+            teamFighting: 8
+        }
+    },
 ]
 
 export default championData;
