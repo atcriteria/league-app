@@ -1,3 +1,47 @@
 .champions-section {
-    
+    border: 1px solid red;
+    width: 75%;
+    height: 75vh;
+    margin: 10% auto 5% auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.champions-section div {
+    border: 1px solid blueviolet;
+}
+
+.champion-select, .champion-meta-info {
+    width: 20%;
+    height: 75vh;
+}
+
+.champion-info {
+    width: 54%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.champ-description {
+    width: 100%;
+    height: 30vh;
+}
+
+.champion-avatar {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -100px;
+    border-radius: 50%;
+}
+
+.champ-metrics {
+    width: 100%;
+    height: 40vh;
 }
