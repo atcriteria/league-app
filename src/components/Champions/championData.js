@@ -13,10 +13,26 @@ const championData = [
         region: "Ionia",
         position: "Mid",
         metrics: {
-            agreesion: 7,
+            agression: 7,
             laning: 6,
             cs: 5,
             teamFighting: 7
+        }
+    },
+    {
+        name: "Akali",
+        image: `${origin}/Images/avatars/Akali_0.jpg`,
+        title: "The Rogue Assassin",
+        description: "The r34 princess",
+        role: "Assassin",
+        race: "Human",
+        region: "Ionia",
+        position: "Mid",
+        metrics: {
+            agression: 10,
+            laning: 4,
+            cs: 4,
+            teamFighting: 8
         }
     },
 ]
