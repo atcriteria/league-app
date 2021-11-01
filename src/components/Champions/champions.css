@@ -39,6 +39,7 @@
     height: 200px;
     top: -100px;
     border-radius: 50%;
+    background-position: 50% 33%;
     z-index: 1;
 }
 
