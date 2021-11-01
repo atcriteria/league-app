@@ -4,8 +4,10 @@ export default function ChampionButton(props){
     const {champion} = props;
     return(
         <div className="champion-button-container" >
-            <img src={champion.image} alt={`${champion.name} portrait`} />
-            {champion.name}
+            <div className="champion-button-wrapper">
+                <div className="champion-button-image-wrapper" style={{backgroundImage: `url(${champion.image})`}} />
+            </div>
+            <div>{champion.name}</div>
         </div>
     )
 }
