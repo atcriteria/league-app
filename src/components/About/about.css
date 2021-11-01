@@ -1,0 +1,45 @@
+section {
+    position: relative;
+    width: 65%;
+    height: 60vh;
+    margin: 7.5% auto;
+    border: 1px solid rgb(65, 58, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+section img {
+    width: 30%;
+    margin-left: 5%;
+    border-radius: 50%;
+}
+
+section article {
+    width: 50%;
+    padding: 5%;
+    letter-spacing: 4px;
+    color: rgb(203, 172, 98);
+    text-align: left;
+    border-left: 1px solid rgb(65, 58, 30);
+}
+/*
+Disabling this for now as it does not get me the desired effect of a chamferred edge
+It does allow me to create the angled border but it does not overlap the container object
+which ends up just adding an extra 'border' rather than flattening the corner. Leaving it
+commented out for now in case I return to it in the future.
+*/
+/* .about-section::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(45deg);
+    background-color: rgb(15, 15, 10);
+    border-bottom: 1px solid rgb(65, 58, 30);
+    z-index: 2;
+} */
