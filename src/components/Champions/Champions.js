@@ -2,7 +2,7 @@ import './champions.css';
 
 export default function Champions(){
     return(
-        <section>
+        <section className="champions-section">
             Champions Go Here
         </section>
     )
