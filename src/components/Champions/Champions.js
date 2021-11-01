@@ -2,6 +2,7 @@ import './champions.css';
 import { useState } from 'react';
 import championData from './championData';
 import ChampionSelector from './ChampionSelector/ChampionSelector';
+import CurrentChampionThumb from './ChampionSelector/CurrentChampionThumb';
 
 export default function Champions(){
     const [selectedChampion, setSelectedChampion] = useState(championData[0]);
@@ -13,7 +14,10 @@ export default function Champions(){
 
     return(
         <section className="champions-section">
-            <ChampionSelector selectedChampion={selectedChampion} selectNewChampion={selectNewChampion} champions={champions} />
+            <div className="champions-left-field">
+                <CurrentChampionThumb name={selectedChampion.name} />
+                <ChampionSelector selectedChampion={selectedChampion} selectNewChampion={selectNewChampion} champions={champions} />
+            </div>
             <div className="champion-info">
                 <div className="champion-avatar" style={{backgroundImage: `url(${selectedChampion.image})`}} />
                 <div className="champ-description">
@@ -22,7 +26,9 @@ export default function Champions(){
                 </div>
                 <div className="champ-metrics"></div>
             </div>
-            <div className="champion-meta-info"></div>
+            <div className="champions-right-field">
+                <div className="champion-meta-info"></div>
+            </div>
         </section>
     )
 }

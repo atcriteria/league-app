@@ -7,13 +7,20 @@ Height is currently 75VH
 Width is currently 22%
 */
 
-.champion-select{
+.champion-select-wrapper {
+    position: relative;
+    height: 88%;
     background-color: #111318;
+    z-index: 0;
+}
+
+.champion-select{
     border: 1px solid #31271e;
+    height: 100%;
 }
 
 .champion-select-header {
-    height: 12%;
+    height: 15%;
     width: 100%;
     border-bottom: 1px solid #31271e;
     margin-bottom: 5%;
@@ -28,10 +35,27 @@ Width is currently 22%
 }
 
 .champion-select-buttons {
-    height: 80%;
+    height: 75%;
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    scrollbar-color: #5a4f2a #111318;
+    scrollbar-color: #5a4f2a rgba(0,0,0,0);
     scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+.champion-select-buttons-fader {
+    position: absolute;
+    /* pointer-events: none, keeps the element from being the target and allows us to keep scrolling */
+    pointer-events: none;
+    top: 0;
+    width: 100%;
+    height: 93%;
+    background: rgb(17,19,24);
+    background: linear-gradient(0deg, rgb(11, 12, 15) 0%, rgba(17, 19, 24, 0) 3%);
+    z-index: 0;
+}
+
+.champion-select-invizzer {
+    opacity: 0%;
 }
