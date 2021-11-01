@@ -12,8 +12,6 @@
 .champion-select, .champion-meta-info {
     width: 22%;
     height: 75vh;
-    background-color: #111318;
-    border: 1px solid #31271e;
     z-index: 0;
 }
 
