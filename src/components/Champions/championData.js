@@ -5,7 +5,7 @@ const origin = window.location.origin;
 const championData = [
     {
         name: "Ahri",
-        image: `${origin}/Images/avatars/ahri`,
+        image: `${origin}/Images/avatars/Ahri_0.jpg`,
         title: "Nine-Tailed Fox",
         description: "cute fox go skrrt",
         role: "Mage",

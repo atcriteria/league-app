@@ -1,6 +1,7 @@
 import './champions.css';
 import { useState } from 'react';
 import championData from './championData';
+import ChampionButton from './ChampionButton';
 
 export default function Champions(){
     const [selectedChampion, seteSelectedChampion] = useState(championData[0]);
@@ -8,7 +9,11 @@ export default function Champions(){
 
     return(
         <section className="champions-section">
-            <div className="champion-select"></div>
+            <div className="champion-select">
+                {champions.map((champion, ind) => {
+                    return <ChampionButton champion={champion} key={ind} />
+                })}
+            </div>
             <div className="champion-info">
                 <div className="champion-avatar"></div>
                 <div className="champ-description"></div>
