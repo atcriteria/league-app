@@ -39,6 +39,7 @@
     height: 200px;
     top: -100px;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .champ-metrics {

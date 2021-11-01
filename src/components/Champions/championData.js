@@ -9,6 +9,8 @@ const championData = [
         title: "Nine-Tailed Fox",
         description: "cute fox go skrrt",
         role: "Mage",
+        race: "Vastaya",
+        region: "Ionia",
         position: "Mid",
         metrics: {
             agreesion: 7,
