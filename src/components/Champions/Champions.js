@@ -3,6 +3,7 @@ import { useState } from 'react';
 import championData from './championData';
 import ChampionSelector from './ChampionSelector/ChampionSelector';
 import CurrentChampionThumb from './ChampionSelector/CurrentChampionThumb';
+import Metrics from './Metrics/Metrics';
 
 export default function Champions(){
     const [selectedChampion, setSelectedChampion] = useState(championData[0]);
@@ -27,7 +28,7 @@ export default function Champions(){
                     <p>{selectedChampion.description}</p>
                     <div className="champ-description-background" style={{backgroundImage: `url(${selectedChampion.splash})`}} />
                 </div>
-                <div className="champ-metrics"></div>
+                <Metrics metrics={selectedChampion.metrics}/>
             </div>
             <div className="champions-right-field">
                 <div className="champion-meta-info"></div>
