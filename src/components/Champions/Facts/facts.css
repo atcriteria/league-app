@@ -1,0 +1,47 @@
+/* 
+Styles for the right section of the champion component.
+This is the master CSS file for each mini component as they're
+mostly misc. anyway
+*/
+
+.role-wrapper {
+    width: 100%;
+    height: 12%;
+    background: rgb(17,19,24);
+    border: 1px solid #3e3310;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.role-img-wrapper {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #3e3310;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.role-img-wrapper img {
+    width: 75%;
+}
+
+.role-text-wrapper {
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.role-text-wrapper p {
+    margin: 1px auto;
+    color: #706955;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.role-text-wrapper p:last-child{
+    color: #c4b998;
+    letter-spacing: 4px;
+    font-size: 1.2rem;
+}

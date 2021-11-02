@@ -4,6 +4,7 @@ import championData from './championData';
 import ChampionSelector from './ChampionSelector/ChampionSelector';
 import CurrentChampionThumb from './ChampionSelector/CurrentChampionThumb';
 import Metrics from './Metrics/Metrics';
+import Role from './Facts/Role';
 
 export default function Champions(){
     const [selectedChampion, setSelectedChampion] = useState(championData[0]);
@@ -31,7 +32,7 @@ export default function Champions(){
                 <Metrics metrics={selectedChampion.metrics}/>
             </div>
             <div className="champions-right-field">
-                <div className="champion-meta-info"></div>
+                <Role role={selectedChampion.role} />
             </div>
         </section>
     )
