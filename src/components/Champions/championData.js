@@ -71,7 +71,7 @@ const championData = [
         region: "Bandle City",
         position: "Top",
         metrics: {
-            agression: 10,
+            agression: 7,
             laning: 7,
             cs: 7,
             teamFighting: 8,
@@ -90,7 +90,7 @@ const championData = [
         region: "Piltover",
         position: "Jungle",
         metrics: {
-            agression: 10,
+            agression: 5,
             laning: 5,
             cs: 5,
             teamFighting: 8,

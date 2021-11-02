@@ -9,13 +9,12 @@
     align-items: center;
 }
 
-.champ-metrics div {
-    border: 1px solid red;
-}
-
 .metrics-data {
     width: 60%;
     height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .metrics-mastery {
@@ -43,4 +42,15 @@
 
 .metrics-mastery img {
     width: 50%;
+}
+
+.meter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.meter label {
+    color: #c4b998;
+    width: 20%;
 }
