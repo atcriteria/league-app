@@ -25,7 +25,7 @@ const championData = [
     {
         name: "Akali",
         image: `${origin}/Images/avatars/Akali_0.jpg`,
-        splash: `${origin}/Images/splashes/Ahri_0.jpg`,
+        splash: `${origin}/Images/splashes/Akali_0.jpg`,
         title: "The Rogue Assassin",
         description: "The r34 princess",
         role: "Assassin",
@@ -44,7 +44,7 @@ const championData = [
     {
         name: "Lux",
         image: `${origin}/Images/avatars/Lux_0.jpg`,
-        splash: `${origin}/Images/splashes/Ahri_0.jpg`,
+        splash: `${origin}/Images/splashes/Lux_0.jpg`,
         title: "The Lady of Luminosity",
         description: "A real easy way to brighten anyones day.",
         role: "Mage",
@@ -63,7 +63,7 @@ const championData = [
     {
         name: "Teemo",
         image: `${origin}/Images/avatars/Teemo_0.jpg`,
-        splash: `${origin}/Images/splashes/Ahri_0.jpg`,
+        splash: `${origin}/Images/splashes/Teemo_0.jpg`,
         title: "The Swift Scout",
         description: "The physical manifestation of Satan himself",
         role: "Marksman",
@@ -82,7 +82,7 @@ const championData = [
     {
         name: "Vi",
         image: `${origin}/Images/avatars/Vi_0.jpg`,
-        splash: `${origin}/Images/splashes/Ahri_0.jpg`,
+        splash: `${origin}/Images/splashes/Vi_0.jpg`,
         title: "The Piltover Enforcer",
         description: "If you hit a wall, just keep punching!",
         role: "Fighter",
