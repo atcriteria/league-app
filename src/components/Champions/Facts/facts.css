@@ -46,3 +46,17 @@ mostly misc. anyway
     letter-spacing: 4px;
     font-size: .8rem;
 }
+
+.champion-region-wrapper {
+    width: 100%;
+    height: 50%;
+    background: rgb(17,19,24);
+    border: 1px solid #3e3310;
+}
+
+.champion-faveskin-wrapper {
+    width: 100%;
+    height: 34%;
+    background: rgb(17,19,24);
+    border: 1px solid #3e3310;
+}
