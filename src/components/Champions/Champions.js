@@ -5,6 +5,8 @@ import ChampionSelector from './ChampionSelector/ChampionSelector';
 import CurrentChampionThumb from './ChampionSelector/CurrentChampionThumb';
 import Metrics from './Metrics/Metrics';
 import Role from './Facts/Role';
+import Region from './Facts/Region';
+import FaveSkin from './Facts/FaveSkin';
 
 export default function Champions(){
     const [selectedChampion, setSelectedChampion] = useState(championData[0]);
@@ -33,6 +35,8 @@ export default function Champions(){
             </div>
             <div className="champions-right-field">
                 <Role role={selectedChampion.role} />
+                <Region region={selectedChampion.region} />
+                <FaveSkin />
             </div>
         </section>
     )
