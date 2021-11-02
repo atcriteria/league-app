@@ -19,7 +19,10 @@ export default function Champions(){
                 <ChampionSelector selectedChampion={selectedChampion} selectNewChampion={selectNewChampion} champions={champions} />
             </div>
             <div className="champion-info">
-                <div className="champion-avatar" style={{backgroundImage: `url(${selectedChampion.image})`}} />
+                <div className="champion-avatar-wrapper" >
+                    <div className="champion-avatar" style={{backgroundImage: `url(${selectedChampion.image})`}} />
+                    <img src="https://universe.leagueoflegends.com/images/ChampionIconFrame.png" alt="border" width="180" height="180" />
+                </div>
                 <div className="champ-description">
                     <h2>{selectedChampion.title}</h2>
                     <p>{selectedChampion.description}</p>
