@@ -25,6 +25,7 @@ export default function Champions(){
                 </div>
                 <div className="champ-description">
                     <p>{selectedChampion.description}</p>
+                    <div className="champ-description-background" style={{backgroundImage: `url(${selectedChampion.splash})`}} />
                 </div>
                 <div className="champ-metrics"></div>
             </div>
