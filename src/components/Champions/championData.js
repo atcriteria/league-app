@@ -17,7 +17,9 @@ const championData = [
             agression: 7,
             laning: 6,
             cs: 5,
-            teamFighting: 7
+            teamFighting: 7,
+            impact: 8,
+            mastery: 6
         }
     },
     {
@@ -34,7 +36,9 @@ const championData = [
             agression: 10,
             laning: 4,
             cs: 4,
-            teamFighting: 8
+            teamFighting: 8,
+            impact: 6,
+            mastery: 6
         }
     },
     {
@@ -51,7 +55,9 @@ const championData = [
             agression: 10,
             laning: 7,
             cs: 6,
-            teamFighting: 8
+            teamFighting: 8,
+            impact: 8,
+            mastery: 5
         }
     },
     {
@@ -68,7 +74,9 @@ const championData = [
             agression: 10,
             laning: 7,
             cs: 7,
-            teamFighting: 8
+            teamFighting: 8,
+            impact: 5,
+            mastery: 7
         }
     },
     {
@@ -85,7 +93,9 @@ const championData = [
             agression: 10,
             laning: 5,
             cs: 5,
-            teamFighting: 8
+            teamFighting: 8,
+            impact: 7,
+            mastery: 6
         }
     },
 ]
