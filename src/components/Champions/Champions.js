@@ -15,7 +15,7 @@ export default function Champions(){
     return(
         <section className="champions-section">
             <div className="champions-left-field">
-                <CurrentChampionThumb name={selectedChampion.name} />
+                <CurrentChampionThumb name={selectedChampion.name} title={selectedChampion.title} />
                 <ChampionSelector selectedChampion={selectedChampion} selectNewChampion={selectNewChampion} champions={champions} />
             </div>
             <div className="champion-info">
@@ -24,7 +24,6 @@ export default function Champions(){
                     <img src="https://universe.leagueoflegends.com/images/ChampionIconFrame.png" alt="border" width="180" height="180" />
                 </div>
                 <div className="champ-description">
-                    <h2>{selectedChampion.title}</h2>
                     <p>{selectedChampion.description}</p>
                 </div>
                 <div className="champ-metrics"></div>

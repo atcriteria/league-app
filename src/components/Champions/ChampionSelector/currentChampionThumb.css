@@ -1,9 +1,10 @@
 .current-champion-thumb-wrapper{
     width: 100%;
-    height: 10%;
+    height: 12%;
     background-color: #111318;
     border: 1px solid #31271e;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -20,4 +21,8 @@
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+.current-champion-thumb-wrapper p {
+    margin: 0;
+    color: #c4b998;
 }

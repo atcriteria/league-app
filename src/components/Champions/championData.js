@@ -7,7 +7,7 @@ const championData = [
         name: "Ahri",
         image: `${origin}/Images/avatars/Ahri_0.jpg`,
         title: "Nine-Tailed Fox",
-        description: "cute fox go skrrt",
+        description: "Innately connected to the magic of the spirit realm, Ahri is a mysterious fox-like vastaya in search of her place in the world. Having become a somewhat reluctant and empathetic predator since entering mortal society, she prefers to manipulate her prey’s emotions before partaking of their life essence—receiving flashes of memory and insight from each soul she consumes.",
         role: "Mage",
         race: "Vastaya",
         region: "Ionia",

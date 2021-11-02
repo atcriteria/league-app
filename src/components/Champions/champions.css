@@ -45,8 +45,11 @@
     background-color: #111318;
     border: 1px solid #31271e;
 }
-.champ-description h2,p {
-    margin: 0;
+
+.champ-description p {
+    font-size: .8rem;
+    margin: 5% 0 0 0;
+    width: 80%;
 }
 
 .champion-avatar-wrapper {
