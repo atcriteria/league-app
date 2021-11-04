@@ -36,7 +36,7 @@ export default function Champions(){
             <div className="champions-right-field">
                 <Role role={selectedChampion.role} />
                 <Region region={selectedChampion.region} />
-                <FaveSkin />
+                <FaveSkin skin={selectedChampion.faveSkin} />
             </div>
         </section>
     )
