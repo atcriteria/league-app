@@ -53,6 +53,43 @@ mostly misc. anyway
     background: rgb(17,19,24);
     border: 1px solid #3e3310;
 }
+.champion-region-content-wrapper {
+    width: 100%;
+    height: 75%;
+}
+.champion-region-title-wrapper {
+    border-top: 1px solid #3e3310;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.champion-region-title {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.champion-region-title p {
+    margin: 1px auto;
+    color: #706955;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: .7rem;
+}
+.champion-region-title p:last-child{
+    color: #c4b998;
+    letter-spacing: 4px;
+    font-size: .8rem;
+}
+.champion-region-emblem {
+    width: 25%;
+    height: 100%;
+    border-left: 1px solid #3e3310;
+}
 
 .champion-faveskin-wrapper {
     width: 100%;
