@@ -89,6 +89,8 @@ mostly misc. anyway
     width: 25%;
     height: 100%;
     border-left: 1px solid #3e3310;
+    background-position: center;
+    background-size: 100%;
 }
 
 .champion-faveskin-wrapper {
