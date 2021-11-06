@@ -1,6 +1,6 @@
 export default function Region({region}){
     const origin = window.location.origin;
-    let url = `${origin}/Images/factions/${region.toLowerCase()}_crest_icon.png`
+    let url = `${origin}/Images/faction_icons/${region.toLowerCase()}_crest_icon.png`
     console.log(url)
     return(
         <div className="champion-region-wrapper">
