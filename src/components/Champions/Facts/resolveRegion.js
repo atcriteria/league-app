@@ -14,7 +14,8 @@ export default function resolveRegion(region){
     // split the name at the spaces and join the elements of
     // the resulting array with an underscore
     // "bandle city" => ["bandle", "city"] -> "bandle_city"
-    str.split(" ").join("_");
+    let replacedStr = str.split(" ").join('_');
+    console.log(replacedStr)
 
-    return str;
+    return replacedStr;
 }
