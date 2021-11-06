@@ -10,23 +10,23 @@ export default function Metrics({metrics}){
             <div className="metrics-data">
                 <div className="meter">
                     <label>AG</label>
-                    <Meter value={metrics.agression} />
+                    <Meter value={metrics.agression} type={"AG"} />
                 </div>
                 <div className="meter">
                     <label>LN</label>
-                    <Meter value={metrics.laning} />
+                    <Meter value={metrics.laning} type={"LN"} />
                 </div>
                 <div className="meter">
                     <label>CS</label>
-                    <Meter value={metrics.cs} />
+                    <Meter value={metrics.cs} type={"CS"} />
                 </div>
                 <div className="meter">
                     <label>TF</label>
-                    <Meter value={metrics.teamFighting} />
+                    <Meter value={metrics.teamFighting} type={"TF"} />
                 </div>
                 <div className="meter">
                     <label>IP</label>
-                    <Meter value={metrics.impact} />
+                    <Meter value={metrics.impact} type={"IP"} />
                 </div>
             </div>
             <div className="metrics-mastery">
