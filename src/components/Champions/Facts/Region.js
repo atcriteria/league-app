@@ -1,10 +1,14 @@
+import resolveRegion from "./resolveRegion";
+
 export default function Region({region}){
     const origin = window.location.origin;
-    let url = `${origin}/Images/faction_icons/${region.toLowerCase()}_crest_icon.png`
-    console.log(url)
+    const regionImagePath = resolveRegion(region)
+    console.log(regionImagePath)
+    let regionIconURL = `${origin}/Images/faction_icons/${regionImagePath}_crest_icon.png`
+    let regionSplashURL = `${origin}/Images/locations/${regionImagePath}.jpg`
     return(
         <div className="champion-region-wrapper">
-            <div className="champion-region-content-wrapper">
+            <div className="champion-region-content-wrapper" style={{backgroundImage: `url(${regionSplashURL})`}}>
 
             </div>
             <div className="champion-region-title-wrapper" >
@@ -13,7 +17,7 @@ export default function Region({region}){
                     <p>{region}</p>
                 </div>
                 <div className="champion-region-emblem" >
-                    <img src={url} alt={`${region} crest icon`} />
+                    <img src={regionIconURL} alt={`${region} crest icon`} />
                 </div>
             </div>
         </div>
