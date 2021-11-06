@@ -1,0 +1,28 @@
+.page-break-wrapper {
+    margin: 7.5% auto 2.5% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-break-line {
+    margin: auto 2.5%;
+    width: 30%;
+    height: 1px;
+    background-color: blue;
+    background: rgb(15,15,10);
+    background: linear-gradient(90deg, rgba(15,15,10,1) 35%, rgba(196,185,152,1) 100%); 
+}
+.page-break-line:last-child {
+    background: rgb(15,15,10);
+    background: linear-gradient(270deg, rgba(15,15,10,1) 35%, rgba(196,185,152,1) 100%); 
+}
+
+.page-break-title {
+    width: 12%;
+    color: #c4b998;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
