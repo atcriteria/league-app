@@ -1,6 +1,6 @@
 .blog-wrapper {
     margin: 2.5% auto;
-    width: 50%;
+    width: 34%;
     border: 1px solid #3e3310;
     height: 70vh;
     display: flex;
@@ -10,6 +10,7 @@
 }
 
 .align-buttons-wrapper {
+    padding-top: 2.5%;
     width: 50%;
     display: flex;
     flex-direction: row;
@@ -17,13 +18,21 @@
     align-items: center;
 }
 .align-button {
+    cursor: pointer;
+    padding: 1%;
     width: 30px;
     height: 30px;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background-color: #3e3310;
+}
+.align-button:hover {
+    background-color: #5a4f2a;
+}
+.align-button-selected {
+    background-color: #5a4f2a;
 }
 .align-button p {
     pointer-events: none;
@@ -50,9 +59,25 @@
     overflow: hidden;
     margin-bottom: 2.5%;
 }
+.blog header {
+    width: 75%;
+    padding-bottom: 2.5%;
+    margin: 10% auto;
+    border-bottom: 1px solid #3e3310;
+}
+.blog h1 {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-bottom: -2.5%;
+}
+.blog h2 {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+}
 .blog-content {
     margin: auto;
-    width: 65%;
+    width: 80%;
     padding: 0 5%;
     overflow: scroll;
     overflow-x: hidden;

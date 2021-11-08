@@ -38,7 +38,10 @@ export default function Blog(){
                 </div>
             </div>
             <article className="blog" id="blog">
-                <h1>Title</h1>
+                <header>
+                    <h1>Title</h1>
+                    <h2>Subtitle Goes Here</h2>
+                </header>
                 <div className="blog-content">
                     <p className="blog-paragraph">Blog Content goes here - blah blah blah blah blah blah blah blah</p>
                     <p className="blog-paragraph">

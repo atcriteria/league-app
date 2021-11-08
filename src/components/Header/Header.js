@@ -2,7 +2,7 @@ import './header.css';
 
 export default function Header(){
     return(
-        <header>
+        <header className="app-header">
             <nav>
                 <div>Logo</div>
                 <div>About</div>

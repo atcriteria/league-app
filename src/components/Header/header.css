@@ -1,4 +1,4 @@
-header {
+.app-header {
     margin: auto;
     background-color: aqua;
     width: 100%;
@@ -14,7 +14,7 @@ header {
     box-shadow: 0px 2px 12px black;
 }
 
-header nav {
+.app-header nav {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -22,7 +22,7 @@ header nav {
     align-items: center;
 }
 
-header nav div {
+.app-header nav div {
     width: 6%;
     height: 58px;
     border-bottom: 2px solid rgb(66,66,60);
@@ -35,18 +35,18 @@ header nav div {
     justify-content: center;
     align-items: center;
 }
-header nav div:hover {
+.app-header nav div:hover {
     cursor: pointer;
     color: rgb(203, 172, 98);
     border-bottom: 2px solid rgb(79, 185, 255);
 }
 
-header nav div:first-child {
+.app-header nav div:first-child {
     width: 58px;
     height: 58px;
     margin: 0 1% 0 3%;
 }
-header nav div a {
+.app-header nav div a {
     text-decoration: none;
     width: 100%;
     height: 60px;
@@ -56,10 +56,10 @@ header nav div a {
     align-items: center;
 }
 
-header nav div a:active, a:visited {
+.app-header nav div a:active, a:visited {
     color: rgb(107, 97, 73);
     text-decoration: none;
 }
-header nav div a:hover {
+.app-header nav div a:hover {
     color: rgb(203, 172, 98);
 }
