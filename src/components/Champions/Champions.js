@@ -10,7 +10,7 @@ import FaveSkin from './Facts/FaveSkin';
 
 export default function Champions(){
     const [selectedChampion, setSelectedChampion] = useState(championData[0]);
-    const [champions, setChampions] = useState(championData);
+    const [champions] = useState(championData);
 
     const selectNewChampion = (id) => {
         return setSelectedChampion(championData[id])
