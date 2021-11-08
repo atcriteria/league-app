@@ -42,3 +42,21 @@
     text-align: justify;
     white-space: pre;
 }
+
+
+.blog {
+    color: aquamarine;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2.5%;
+}
+.blog-content {
+    margin: auto;
+    width: 65%;
+    padding: 0 5%;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: #5a4f2a rgba(0,0,0,0);
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
