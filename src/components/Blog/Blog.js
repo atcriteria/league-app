@@ -2,7 +2,8 @@ import './blog.css';
 
 export default function Blog(){
     const handleClick = e => {
-        console.log(e.target.title)
+        let blogContent = document.getElementById("blog");
+        blogContent.style.textAlign = e.target.title
     }
     return(
         <section className="blog-wrapper">
@@ -32,9 +33,12 @@ export default function Blog(){
                     <p>____   _____</p>
                 </div>
             </div>
-            <div className="blog-content">
+            <div className="blog-content" id="blog">
                 <h1>Title</h1>
-                <p>Blog Content goes here - blah blah blah blah blah blah blah blah</p>
+                <p className="blog-paragraph">Blog Content goes here - blah blah blah blah blah blah blah blah</p>
+                <p>
+                    Ad aute enim ea minim aliquip irure incididunt voluptate non adipisicing eu enim qui duis. Laborum consectetur pariatur eiusmod dolore id sit. Sint consectetur consectetur nulla tempor quis sint esse excepteur aliquip do enim mollit. Officia quis adipisicing qui tempor proident ad commodo sunt officia fugiat cillum in enim. Aute Lorem veniam mollit officia ex magna sit eiusmod consectetur ea pariatur. Ad aute enim ea minim aliquip irure incididunt voluptate non adipisicing eu enim qui duis. Laborum consectetur pariatur eiusmod dolore id sit. Sint consectetur consectetur nulla tempor quis sint esse excepteur aliquip do enim mollit. Officia quis adipisicing qui tempor proident ad commodo sunt officia fugiat cillum in enim. Aute Lorem veniam mollit officia ex magna sit eiusmod consectetur ea pariatur. Ad aute enim ea minim aliquip irure incididunt voluptate non adipisicing eu enim qui duis. Laborum consectetur pariatur eiusmod dolore id sit. Sint consectetur consectetur nulla tempor quis sint esse excepteur aliquip do enim mollit. Officia quis adipisicing qui tempor proident ad commodo sunt officia fugiat cillum in enim. Aute Lorem veniam mollit officia ex magna sit eiusmod consectetur ea pariatur. Ad aute enim ea minim aliquip irure incididunt voluptate non adipisicing eu enim qui duis. Laborum consectetur pariatur eiusmod dolore id sit. Sint consectetur consectetur nulla tempor quis sint esse excepteur aliquip do enim mollit. Officia quis adipisicing qui tempor proident ad commodo sunt officia fugiat cillum in enim. Aute Lorem veniam mollit officia ex magna sit eiusmod consectetur ea pariatur.
+                </p>
             </div>
         </section>
     )
