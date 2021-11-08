@@ -8,7 +8,7 @@ import Blog from './components/Blog/Blog';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" data-testId="App-testID" >
       <Header />
       <Banner />
       <About />
