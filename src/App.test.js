@@ -1,10 +1,13 @@
 import App from "./App";
 import { render, screen, waitFor } from '@testing-library/react';
 
-test('App renders', async () => {
+describe('App testing environment', () => {
     render(<App />);
-    await waitFor(() => {
-        const app = screen.getByTestId('App-testID');
-        expect(app).toBeTruthy();
-    })
+
+    test('App Renders', async () => {
+        await waitFor(() => {
+            const app = screen.getByTestId('App-testID');
+            expect(app).toBeTruthy();
+        });
+    });
 })
