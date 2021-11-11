@@ -21,5 +21,9 @@ describe('App testing environment', () => {
     it('Banner Renders', () => {
         const banner = screen.getByTestId('banner-testID');
         expect(banner).toBeTruthy();
-    })
+    });
+    it('Champions Renders', () => {
+        const champions = screen.getByTestId('champions-testID');
+        expect(champions).toBeTruthy();
+    });
 });
