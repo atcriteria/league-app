@@ -8,11 +8,11 @@ export default function ChampionButton(props){
     }
 
     return(
-        <div className="champion-button-container" >
+        <button className="champion-button-container" >
             <div onClick={handleClick} className="champion-button-wrapper">
                 <div className="champion-button-image-wrapper" style={{backgroundImage: `url(${champion.image})`}} />
             </div>
             <div>{champion.name}</div>
-        </div>
+        </button>
     )
 }
