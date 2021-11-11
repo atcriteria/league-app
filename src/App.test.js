@@ -14,4 +14,8 @@ describe('App testing environment', () => {
         const header = screen.getByTestId('header-testID');
         expect(header).toBeTruthy();
     });
+    it('About Renders', () => {
+        const about = screen.getByTestId('about-testID');
+        expect(about).toBeTruthy();
+    })
 });
