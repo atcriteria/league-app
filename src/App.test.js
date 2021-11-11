@@ -1,13 +1,17 @@
 import App from "./App";
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen} from '@testing-library/react';
 
 describe('App testing environment', () => {
-    render(<App />);
-
-    test('App Renders', async () => {
-        await waitFor(() => {
-            const app = screen.getByTestId('App-testID');
-            expect(app).toBeTruthy();
-        });
+    beforeEach(() => {
+        render(<App />);
     });
-})
+    
+    it('App Renders', () => {
+        const mainApp = screen.getByTestId('App-testID');
+        expect(mainApp).toBeTruthy();
+    });
+    it('Header Renders', () => {
+        const header = screen.getByTestId('header-testID');
+        expect(header).toBeTruthy();
+    });
+});
