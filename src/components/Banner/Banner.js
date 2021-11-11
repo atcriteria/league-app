@@ -3,7 +3,7 @@ const origin = window.location.origin;
 
 export default function Banner(){
     return(
-        <aside>
+        <aside data-testid="banner-testID">
             <div className="fade-wrapper"></div>
             <div className="text-wrapper"><span>AtCriteria</span></div>
             <div className="img-container" alt="banner" style={{backgroundImage:`url(${origin+"/images/Ezreal_6.jpg"})`}} />
