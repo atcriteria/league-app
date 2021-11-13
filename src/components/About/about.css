@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    scroll-margin-top: 200px;
 }
 
 .about-section img {
