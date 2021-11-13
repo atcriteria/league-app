@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: auto;
   background-color: rgb(15, 15, 10);
