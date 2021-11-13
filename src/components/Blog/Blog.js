@@ -10,7 +10,7 @@ export default function Blog(){
         }
     }
     return(
-        <section className="blog-wrapper" data-testid="blog-testID">
+        <section className="blog-wrapper" data-testid="blog-testID" id="blog-section">
             <div className="align-buttons-wrapper" >
                 <div onClick={handleClick} title="left" className="align-button" >
                     <p>___________</p>
