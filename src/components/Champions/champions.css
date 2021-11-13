@@ -7,7 +7,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     scroll-margin-top: 200px;
 }
 
