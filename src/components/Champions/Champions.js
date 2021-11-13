@@ -17,7 +17,7 @@ export default function Champions(){
     }
 
     return(
-        <section className="champions-section" data-testid="champions-testID">
+        <section className="champions-section" data-testid="champions-testID" id="champion-section">
             <div className="champions-left-field">
                 <CurrentChampionThumb name={selectedChampion.name} title={selectedChampion.title} />
                 <ChampionSelector selectedChampion={selectedChampion} selectNewChampion={selectNewChampion} champions={champions} />

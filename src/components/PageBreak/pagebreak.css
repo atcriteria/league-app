@@ -1,5 +1,6 @@
 .page-break-wrapper {
     margin: 7.5% auto 2.5% auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
