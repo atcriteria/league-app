@@ -1,5 +1,7 @@
 # league-app
 
+Taking a short break from League so this application is going on the backburner while I continue work on my RPG Simulator application!
+
 ## About
 
 This application is a for-fun app that tracks my main selection of champions and gives the users some information regarding the specific champions as well as some subjective metrics outlining my skill expression with them. The application itself will be a Single-Page-Application created with React and the League of Legends content API.
